@@ -16,6 +16,9 @@ repositories {
     mavenCentral()
 }
 
+apply from: 'dependencies.gradle'
+apply plugin: 'base'
+
 dependencies {
     // Use JUnit Jupiter for testing.
     testImplementation 'org.junit.jupiter:junit-jupiter:5.7.1'
