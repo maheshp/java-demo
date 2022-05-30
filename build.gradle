@@ -23,7 +23,7 @@ dependencies {
     // Use JUnit Jupiter for testing.
     testImplementation 'org.junit.jupiter:junit-jupiter:5.7.1'
     testCompile group: 'org.jsoup', name: 'jsoup', version: '1.12.1'
-    testCompile group: 'org.mockito', name: 'mockito-core', version: '3.2.4'
+    testCompile group: 'org.mockito', name: 'mockito-core', version: '4.6.0'
     
     implementation group: 'com.google.code.gson', name: 'gson', version: '2.3.1'
     implementation group: 'com.google.guava', name: 'guava', version: '23.1-jre'
